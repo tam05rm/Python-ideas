@@ -1,0 +1,6 @@
+# Find your IP using Pyton
+from SOCKET import *
+ip = gethostbyname(gethostbyname())
+print (ip)
+
+# the gethostbyname() returns the name of the computer you are working on.
